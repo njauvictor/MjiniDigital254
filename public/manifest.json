@@ -1,0 +1,25 @@
+{
+  "name": "Mjini Digital - Nairobi's Top Web Developers",
+  "short_name": "Mjini Digital",
+  "description": "Nairobi's leading web developers, building modern, powerful websites and applications that drive business growth in the digital era.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en",
+  "categories": ["business", "technology", "web development"],
+  "icons": [
+    {
+      "src": "/mjini-logo.webp",
+      "sizes": "192x192",
+      "type": "image/webp"
+    },
+    {
+      "src": "/mjini-logo.webp",
+      "sizes": "512x512",
+      "type": "image/webp"
+    }
+  ]
+}
