@@ -26,7 +26,7 @@ export default function HeroSection() {
           />
 
           {/* MAIN CONTENT */}
-          <div className="mx-auto max-w-7xl px-6 flex flex-col items-start text-left md:items-center md:text-center lg:mt-12">
+          <div className="mx-auto max-w-7xl px-6 flex flex-col items-start text-left md:items-center md:text-center mt-12">
             {/* Badge */}
             <Link
               href="#link"

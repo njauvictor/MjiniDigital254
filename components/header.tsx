@@ -24,7 +24,7 @@ const menuItems = [
   { title: 'About', isLink: true, href: '/about' },
   { title: 'Services', isLink: true, href: '/services', hasDropdown: true, content: 'services' },
   { title: 'Projects', isLink: true, href: '/projects' },
-  { title: 'Templates', isLink: true, href: '/templates' },
+  // { title: 'Templates', isLink: true, href: '/templates' },
   { title: 'Blog', isLink: true, href: '/blog' },
 ]
 
