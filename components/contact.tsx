@@ -34,11 +34,11 @@ export default function ContactSection() {
                             <Link
                                 href="mailto:support@mjinidigital.co.ke"
                                 className="gap-4 flex items-center justify-center text-lg text-blue-600 hover:underline dark:text-blue-400">
-                                <Mail /> support@mjinidigital.co.ke
+                                <Mail /> mjinidigital@gmail.com
                             </Link>
                             <div className="gap-4 flex items-center justify-center text-lg text-blue-600 hover:underline dark:text-blue-400 mt-4">
                                 <Phone /> 
-                                <span>+254 711 495336</span>
+                                <span>+254 729 396862</span>
                             </div>
                         </div>
                     </div>
