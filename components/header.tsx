@@ -15,9 +15,6 @@ import {
   Zap,
   Globe,
   Smartphone,
-  BarChart3,
-  Cloud,
-  Shield,
   ChevronDown,
 } from 'lucide-react'
 

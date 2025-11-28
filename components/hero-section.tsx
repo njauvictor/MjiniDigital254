@@ -1,9 +1,6 @@
-import React from "react";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import Image from "next/image";
-import LogoCloud from "./logo-cloud";
 
 export default function HeroSection() {
   return (
@@ -20,16 +17,7 @@ export default function HeroSection() {
 
       <section>
         <div className="relative pt-24 md:pt-36">
-          {/* Static background image */}
-          <div className="mask-b-from-35% mask-b-to-90% absolute inset-0 top-56 -z-20 lg:top-32">
-            <Image
-              src="https://ik.imagekit.io/lrigu76hy/tailark/night-background.jpg?updatedAt=1745733451120"
-              alt="background"
-              className="hidden size-full dark:block"
-              width={3276}
-              height={4095}
-            />
-          </div>
+         
 
           {/* Background overlay */}
           <div
@@ -38,7 +26,7 @@ export default function HeroSection() {
           />
 
           {/* MAIN CONTENT */}
-          <div className="mx-auto max-w-7xl px-6 flex flex-col items-start text-left md:items-center md:text-center">
+          <div className="mx-auto max-w-7xl px-6 flex flex-col items-start text-left md:items-center md:text-center lg:mt-12">
             {/* Badge */}
             <Link
               href="#link"
@@ -96,7 +84,7 @@ export default function HeroSection() {
             </div>
           </div>
 
-          <LogoCloud />
+  
         </div>
       </section>
     </main>

@@ -7,6 +7,7 @@ import FAQsThree from "@/components/FAQs";
 import HeroSection from "@/components/hero-section";
 import HomeText from "@/components/HomeText";
 import IntegrationsSection1 from "@/components/integrations-1";
+import LogoCloud from "@/components/logo-cloud";
 import Pricing from "@/components/pricing";
 import Services from "@/components/Services";
 import Websites from "@/components/websites";
@@ -16,6 +17,7 @@ export default function Home() {
   return (
    <>
    <HeroSection/> 
+   <LogoCloud />
    <AboutSection/> 
    <Services/>
    <ContentSection4/>
